@@ -10,6 +10,6 @@ use the role name in the playbook and we can run
 create gir repo 
 got to terminal 
 $ ansible-galaxy import (name of git repo user) (git repository that you created) --token (generate the token from ansible galaxy repo under 
-under collection->API token
+under collection->API token)
 
 
