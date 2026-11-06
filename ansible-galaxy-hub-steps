@@ -1,0 +1,11 @@
+ansible-galaxy  - it is cli utility
+$ ansible-galaxy -h -> it will display the option as roles and colletcion
+$ ansible-galaxy role -h -> it will display the role option 
+we can use ansible galaxy rigistory like docker hub from this we can use already existed and we can use them 
+to install for any roles from ansible galaxy hub use below command
+$ ansible-galaxy role install (rolename of ansible galaxy)-> import the role form galaxy registory 
+after installing we can check the roles where the roles are installed for use
+$ ls ~/.ansible/roles -> it will show all the roles that we have installed 
+use the role name in the playbook and we can run
+
+
