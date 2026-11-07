@@ -25,7 +25,7 @@ openssl rand -base64 2048 > vault.pass
 ```
 ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
 ```
-
+How we roles in ansible galaxy, similarly we have collection ansible collection and utilize them as how we followed step for roles.
 
 
 
